@@ -1,0 +1,51 @@
+.hotel__booking {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    
+}
+.benefit{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+}
+.booking__button{
+    background-color: #EC565C !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+}
+.benefit__card {
+    width: 210px;
+    height: 300px;
+    text-align: justify;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px ;
+    border: 1px solid lightgrey;
+    transition:100ms ease-in;
+    display: flex;
+    flex-direction: column;
+
+}
+.benefit__card:hover{
+    transform: scale(1.03);
+}
+.benefit__card > h5 {
+    text-align: left;
+    font-size:16px;
+    margin-left: 5px;
+}
+.benefit__des{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 5px;
+    padding-top:0px;
+}
+.benefit__card > img{
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

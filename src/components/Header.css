@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    border-bottom: 1px solid lightgray;
+    background-color:rgba(255, 255, 255, 0.281);
+    height:50px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header__logo{
+    height: 45px;
+    object-fit: contain;
+    margin-left: 40px;
+    text-decoration: none
+    
+}
+.header__login{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-right:30px;
+}
+.username{
+    font-weight: 600;
+    margin-left: 5px;
+}
+.header__avatar{
+    margin-left: 5px;
+}
+.login__button{
+    margin-top: 3px ;
+    background-color: #F6565C ;
+    margin-left: 5px ;
+    padding: 3px 15px ;
+    font-weight: 600 ;
+    text-decoration: none;
+    border-radius: 3px;
+    transition:100ms ease-in;
+    border: 1px solid #F6565C;
+}
+.login__button:hover{
+    background-color: lightgray;
+    color: #F6565C;
+    border: 1px solid #a09e9e;
+
+}
+.header__login > button:hover{
+    color: #F6565C;
+    background-color: lightgray; ;
+}

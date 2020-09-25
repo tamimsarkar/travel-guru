@@ -1,0 +1,35 @@
+.datepicker{
+   display: flex;
+   flex-direction: column;
+   background-color: #fff;
+   padding: 20px;
+   margin-left: 25%;
+   margin-top: 10px;
+   border-radius: 10px;
+   border: 1px solid gray;
+   width: 50%;
+}
+
+.origin,.rooms{   
+    display: flex;
+    flex-direction: column;
+    
+}
+.span {
+    font-size: 13px;
+    margin: 10px 5px;
+    color: gray;
+}
+.input__value {
+    height: 30px;
+    width: 50%;
+    border-radius: 70px;
+    border: 1px solid lightgray;
+    padding: 0px 15px;
+
+}
+.rooms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
